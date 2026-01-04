@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  background: #fff4fb;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+#scene {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: all 1.5s ease;
+}
+
+#animal {
+  width: 160px;
+  top: 25%;
+}
+
+#poop {
+  width: 80px;
+  top: 45%;
+}
+
+#cake {
+  width: 180px;
+  top: 38%;
+}
+
+#message {
+  position: absolute;
+  top: 65%;
+  width: 100%;
+  font-size: 24px;
+  line-height: 1.6;
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
